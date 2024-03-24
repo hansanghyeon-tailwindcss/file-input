@@ -1,0 +1,25 @@
+{
+  "name": "@hyeon/tailwindcss-file-input",
+  "version": "1.0.5",
+  "keywords": [
+    "tailwindcss",
+    "file",
+    "input",
+    "css"
+  ],
+  "author": "Hansanghyeon <999@hyeon.pro>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hansanghyeon/tailwindcss-file-input/issues"
+  },
+  "homepage": "https://github.com/hansanghyeon/tailwindcss-file-input",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Hansanghyeon/file-input-css.git"
+  },
+  "main": "index.js",
+  "files": ["index.js"],
+  "publishConfig": {
+    "access": "public"
+  }
+}
