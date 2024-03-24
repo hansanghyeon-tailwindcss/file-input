@@ -20,10 +20,8 @@ jobs:
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
-        working-directory: ${{ env.dir }}
         with:
           node-version: 20.11.1
-          catch: yarn
 
       - name: Install Dependencies
         run: yarn install
