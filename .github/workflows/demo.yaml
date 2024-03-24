@@ -6,6 +6,10 @@ on:
 
 jobs:
   demo:
+    name: example 깃헙 페이지 배포
+    environment:
+      name: github-pages
+      url: https://hansanghyeon.github.io/tailwindcss-file-input/
     runs-on: ubuntu-latest
     env:
       dir: ./example
