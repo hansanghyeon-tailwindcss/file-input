@@ -19,6 +19,9 @@
   },
   "main": "index.js",
   "files": ["index.js"],
+  "peerDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
   "publishConfig": {
     "access": "public"
   }
